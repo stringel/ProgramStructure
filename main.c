@@ -12,7 +12,8 @@ void checkRange(int);
 int main()
 { //start main()
 
-    checkRange(101);
+	// Check for a valid range. 
+    checkRange(190);
 
     return 0;
 } // end main()
@@ -20,6 +21,7 @@ int main()
 int addThree(int x)
 {
 
+	// Increase number by three.
     return x + 3;
 }
 
